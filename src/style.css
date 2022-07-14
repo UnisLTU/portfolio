@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.nav-bar-container {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    position: sticky;
+    width: 100%;
+}
+
+.logo {
+ float: left;
+ color: aliceblue;
+ font-size: 24px;
+ text-decoration: none;
+ font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar {
+    float: right;
+    padding-right: 30px;
+}
+
+.nav-buttons {
+    margin-right: 20px;
+    height: 35px;
+    justify-content: center;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    transition: 0.5s linear;
+    
+}
+
+.nav-buttons:hover {
+    border-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s linear;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    height: 25px;
+    
+}
+
