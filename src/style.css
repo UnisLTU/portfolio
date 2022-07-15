@@ -2,22 +2,25 @@ body {
     background-color: rgb(34, 34, 34);
 }
 
-.nav-bar-container {
+.navbar-container {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     display: inline-block;
     position: sticky;
+    top: 0; 
     width: 100%;
 }
+
 
 .logo {
  float: left;
  color: aliceblue;
+ padding-left: 50px;
  font-size: 24px;
  text-decoration: none;
- font-family:Verdana, Geneva, Tahoma, sans-serif
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar {
@@ -37,7 +40,6 @@ body {
     font-size: 20px;
     color: aliceblue;
     transition: 0.5s linear;
-    
 }
 
 .nav-buttons:hover {
@@ -48,5 +50,22 @@ body {
     border-bottom: 3px solid rgb(255, 255, 255);
     height: 25px;
     
+}
+
+.home {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.collumn-left {
+    width: 40%;
+}
+
+.collumn-right {
+    float: right;
+    width: 40%
+
 }
 
