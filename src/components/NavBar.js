@@ -14,7 +14,7 @@ function NavBar() {
         <a className="nav-buttons" href="/"><BsFillPersonFill size={20} style={{padding: 2}}/>About</a>
         <a className="nav-buttons" href="/"><AiOutlineFundProjectionScreen size={20} style={{padding: 2}}/>Projects</a>
         <a className="nav-buttons" href="/"><BiPencil size={20} style={{padding: 2}}/>Resume</a>
-        <div className="nav-buttons" href="/"><RiGithubLine size={24} style={{padding: 2}} />GitHub</div>
+        <a className="nav-buttons" href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{padding: 2}} />GitHub</a>
       </nav >
     </div >
   );
