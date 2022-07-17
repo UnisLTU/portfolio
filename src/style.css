@@ -9,6 +9,7 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 
 .logo {
@@ -50,8 +51,8 @@ body {
 
 .home {
   top: -150px;
-  padding-top: 150px;
-  padding-bottom: 180px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   align-items: center;
   background-image: url(./Assets/blackwhite.jpg);
@@ -107,4 +108,44 @@ p {
   margin-left: 10px;
   z-index: -1;
   filter: grayscale(100%);
+}
+
+.skillset {
+  display: flex;
+  flex-direction: column;
+  color: #fc0e49;
+  font-size: 32px;
+  padding-top: 80px;
+}
+
+.skillsetcon {
+  display: inline-block;
+  justify-content: center;
+  height: 45px;
+  width: 130px;
+  padding: 30px;
+  margin: 30px;
+  color: #fc0e49;
+  background: rgb(252, 252, 252);
+  box-shadow: 0 8px 32px 0 #fc0e4a83;
+  backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 2px solid #fc0e4a67;
+  transition: 0.5s linear;
+}
+
+.skillsetcon:hover {
+  display: inline-block;
+  justify-content: center;
+  height: 55px;
+  width: 140px;
+  padding: 30px;
+  margin: 20px;
+  color: #fc0e49;
+  background: rgb(252, 252, 252);
+  box-shadow: 0 8px 32px 0 #fc0e4a83;
+  backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 2px solid #fc0e4a67;
+  
 }

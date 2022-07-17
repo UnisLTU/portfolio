@@ -1,6 +1,9 @@
 import React from 'react'
 import me1 from '../../Assets/me1.jpg';
 import me2 from '../../Assets/me2.jpg';
+import { AiFillHtml5 } from 'react-icons/ai'
+import { DiCss3, DiJavascript1, DiReact, DiSass, DiNpm } from 'react-icons/di'
+import { FaNode, FaBootstrap } from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -14,13 +17,23 @@ const About = () => {
         <img src={me1} alt="me1" className='image-cont' />
         <img src={me2} alt="me2" className='image-cont' />
       </section>
-      <section>
-        <div>Feeling good programming in this:</div>
-      </section>
-      <section>
-        <div>Still learning programming in:</div>
-      </section>
+      <section className='skillset'>
+        <div style={{ display: "flex", justifyContent: "center" }}>Skillset:</div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <AiFillHtml5 className='skillsetcon' />
+          <DiCss3 className='skillsetcon' />
+          <DiJavascript1 className='skillsetcon' />
+          <DiNpm className='skillsetcon' />
+          <FaBootstrap className='skillsetcon' />
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>Learning atm:</div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <DiReact className='skillsetcon' />
+          <FaNode className='skillsetcon' />
+          <DiSass className='skillsetcon' />
+        </div>
 
+      </section>
     </div>
 
   )
