@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(34, 34, 34);
+  background-color: #1d1d1d;
 }
 
 .navbar-container {
@@ -66,14 +66,12 @@ body {
   width: 70%;
   color: aliceblue;
   background-color: rgba(0,0,0,0.7);
-
 }
 
 .intro {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .web-dev { 
@@ -89,6 +87,8 @@ body {
   justify-content: center;
   height: 400px;
   border-bottom: #fc0e49 10px solid;
+  
+
 }
 
 .about-me {
@@ -116,6 +116,7 @@ p {
   color: #fc0e49;
   font-size: 32px;
   padding-top: 80px;
+  background: linear-gradient(135deg, rgba(63, 63, 63, 0.8) 0%, rgb(0, 0, 0) 100%);
 }
 
 .skillsetcon {
@@ -149,3 +150,4 @@ p {
   border: 2px solid #fc0e4a67;
   
 }
+

@@ -1,6 +1,6 @@
 import React from 'react'
-import me1 from '../../Assets/me1.jpg';
-import me2 from '../../Assets/me2.jpg';
+import me1 from '../Assets/me1.jpg';
+import me2 from '../Assets/me2.jpg';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiJavascript1, DiReact, DiSass, DiNpm } from 'react-icons/di'
 import { FaNode, FaBootstrap } from 'react-icons/fa'
@@ -8,7 +8,7 @@ import { FaNode, FaBootstrap } from 'react-icons/fa'
 const About = () => {
   return (
     <div>
-      <section className='about'>
+      <section className='about' id="about">
         <div className='about-me'>
           <p>Hi, I am <font color="#fc0e49" >Ugnius Tyla</font>  from Vilnius, Lithuania</p>
           <p>I have Civil engineering background and currently working as civil engineer, but I am trying to improve myself by learning <font color="#fc0e49" >Web development.</font></p>
@@ -32,7 +32,6 @@ const About = () => {
           <FaNode className='skillsetcon' />
           <DiSass className='skillsetcon' />
         </div>
-
       </section>
     </div>
 
