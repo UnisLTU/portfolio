@@ -151,3 +151,14 @@ p {
   
 }
 
+#calender {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-bottom: 30px;
+}
+
+#contributions {
+  padding: 30px;
+  align-self: center;
+}

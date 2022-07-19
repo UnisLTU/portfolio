@@ -4,6 +4,8 @@ import me2 from '../Assets/me2.jpg';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiJavascript1, DiReact, DiSass, DiNpm } from 'react-icons/di'
 import { FaNode, FaBootstrap } from 'react-icons/fa'
+import GitHubCalendar from 'react-github-calendar';
+
 
 const About = () => {
   return (
@@ -31,6 +33,10 @@ const About = () => {
           <DiReact className='skillsetcon' />
           <FaNode className='skillsetcon' />
           <DiSass className='skillsetcon' />
+        </div>
+        <div id='calender'> 
+        <div id='contributions'>My contributions</div>
+        <GitHubCalendar username="UnisLTU" color="#fc0e49" />
         </div>
       </section>
     </div>
