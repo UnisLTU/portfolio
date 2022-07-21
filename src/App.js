@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import "./style.css";
 import About from "./components/About";
+import Projects from "./components/Projects/Projects";
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
    <NavBar/>
    <Home/>
    <About/>
+   <Projects/>
    </div>
   );
 }

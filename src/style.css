@@ -16,9 +16,17 @@ body {
   float: left;
   color: #fc0e49;
   padding-left: 50px;
+  padding-top: 2px;
   font-size: 24px;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.3s linear;
+}
+
+.logo:hover {
+  font-size: 28px;
+  transition: 0.3s linear;
+  padding-top: 0px;
 }
 
 .navbar {
@@ -115,8 +123,9 @@ p {
   flex-direction: column;
   color: #fc0e49;
   font-size: 32px;
-  padding-top: 80px;
+  padding-top: 60px;
   background: linear-gradient(135deg, rgba(63, 63, 63, 0.8) 0%, rgb(0, 0, 0) 100%);
+  border-bottom: #fc0e49 10px solid;
 }
 
 .skillsetcon {
@@ -133,6 +142,7 @@ p {
   border-radius: 10px;
   border: 2px solid #fc0e4a67;
   transition: 0.5s linear;
+  
 }
 
 .skillsetcon:hover {

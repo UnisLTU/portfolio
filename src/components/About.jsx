@@ -9,7 +9,7 @@ import GitHubCalendar from 'react-github-calendar';
 
 const About = () => {
   return (
-    <div>
+    <>
       <section className='about' id="about">
         <div className='about-me'>
           <p>Hi, I am <font color="#fc0e49" >Ugnius Tyla</font>  from Vilnius, Lithuania</p>
@@ -39,7 +39,7 @@ const About = () => {
         <GitHubCalendar username="UnisLTU" color="#fc0e49" />
         </div>
       </section>
-    </div>
+    </>
 
   )
 }

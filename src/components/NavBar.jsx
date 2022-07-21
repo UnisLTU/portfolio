@@ -23,7 +23,7 @@ const NavBar = () => {
       <nav className="navbar">
         <Link className="nav-buttons" to="home" spy={true} smooth={true} offset={-100} duration={500} ><AiOutlineHome size={20} style={{padding: 2}}/>Home</Link>
         <Link className="nav-buttons" to="about" spy={true} smooth={true} offset={-64} duration={500}><BsFillPersonFill size={20} style={{padding: 2}}/>About</Link>
-        <Link className="nav-buttons" to="projects" spy={true} smooth={true} offset={-64} duration={500}><AiOutlineFundProjectionScreen size={20} style={{padding: 2}}/>Projets</Link>
+        <Link className="nav-buttons" to="projects" spy={true} smooth={true} offset={-64} duration={500}><AiOutlineFundProjectionScreen size={20} style={{padding: 2}}/>Projects</Link>
         <a className="nav-buttons" href="/"><BiPencil size={20} style={{padding: 2}}/>Resume</a>
         <a className="nav-buttons" href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{padding: 2}} />GitHub</a>
       </nav >
