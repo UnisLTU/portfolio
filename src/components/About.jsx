@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import me1 from '../Assets/me1.jpg';
 import me2 from '../Assets/me2.jpg';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiJavascript1, DiReact, DiSass, DiNpm } from 'react-icons/di'
 import { FaNode, FaBootstrap } from 'react-icons/fa'
 import GitHubCalendar from 'react-github-calendar';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({duration: 1000})
+  })
   return (
     <>
       <section className='about' id="about">
@@ -19,7 +24,7 @@ const About = () => {
         <img src={me1} alt="me1" className='image-cont' />
         <img src={me2} alt="me2" className='image-cont' />
       </section>
-      <section className='skillset'>
+      <section data-aos="fade-up" className='skillset'>
         <div style={{ display: "flex", justifyContent: "center" }}>Skillset:</div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <AiFillHtml5 className='skillsetcon' />
