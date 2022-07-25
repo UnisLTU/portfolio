@@ -11,7 +11,7 @@ import "aos/dist/aos.css"
 
 const About = () => {
   useEffect(() => {
-    Aos.init({duration: 1000})
+    Aos.init({ duration: 1000, offset: 200, once: true })
   })
   return (
     <>
@@ -24,24 +24,30 @@ const About = () => {
         <img src={me1} alt="me1" className='image-cont' />
         <img src={me2} alt="me2" className='image-cont' />
       </section>
-      <section data-aos="fade-up" className='skillset'>
-        <div style={{ display: "flex", justifyContent: "center" }}>Skillset:</div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <AiFillHtml5 className='skillsetcon' />
-          <DiCss3 className='skillsetcon' />
-          <DiJavascript1 className='skillsetcon' />
-          <DiNpm className='skillsetcon' />
-          <FaBootstrap className='skillsetcon' />
+      <section className='skillset'>
+        <div data-aos="zoom-out-up">
+          <div style={{ display: "flex", justifyContent: "center" }}>Skillset:</div>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <AiFillHtml5 className='skillsetcon' />
+            <DiCss3 className='skillsetcon' />
+            <DiJavascript1 className='skillsetcon' />
+            <DiNpm className='skillsetcon' />
+            <FaBootstrap className='skillsetcon' />
+          </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>Learning atm:</div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <DiReact className='skillsetcon' />
-          <FaNode className='skillsetcon' />
-          <DiSass className='skillsetcon' />
+        <div data-aos="zoom-out-up" data-aos-delay="500">
+          <div style={{ display: "flex", justifyContent: "center" }}>Learning atm:</div>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <DiReact className='skillsetcon' />
+            <FaNode className='skillsetcon' />
+            <DiSass className='skillsetcon' />
+          </div>
         </div>
-        <div id='calender'> 
-        <div id='contributions'>My contributions</div>
-        <GitHubCalendar username="UnisLTU" color="#fc0e49" />
+        <div data-aos="zoom-out-up" data-aos-delay="500" style={{ display: "flex", justifyContent: "center"}}>
+          <div id='calender'>
+            <div id='contributions'>My contributions</div>
+            <GitHubCalendar username="UnisLTU" color="#fc0e49" />
+          </div>
         </div>
       </section>
     </>
