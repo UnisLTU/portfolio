@@ -1,0 +1,32 @@
+.home {
+    top: -150px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    background-image: url(../../Assets/blackwhite.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-top: #fc0e49 10px solid;
+    border-bottom: #fc0e49 10px solid;
+  }
+  .collumn_center {
+    margin-left: 15%;
+    width: 70%;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.7);
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .web_dev { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fc0e49;
+  
+  }

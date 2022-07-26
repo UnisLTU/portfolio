@@ -1,0 +1,82 @@
+.about {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    border-bottom: #fc0e49 10px solid;
+    
+  
+  }
+  
+  .about_me {
+    padding: 150px 0px 100px 0px;
+    margin-top: 0px;
+    background-color: aliceblue;
+  }
+  
+  p {
+    padding: 0px 50px 0px 50px;
+    font-size: large;
+    padding-bottom: 20px;
+    margin: 0px;
+  }
+  
+  .image_container {
+    margin-left: 10px;
+    z-index: -1;
+    filter: grayscale(100%);
+  }
+  
+  .skillset {
+    display: flex;
+    flex-direction: column;
+    color: #fc0e49;
+    font-size: 32px;
+    padding-top: 60px;
+    background: linear-gradient(135deg, rgba(63, 63, 63, 0.8) 0%, rgb(0, 0, 0) 100%);
+    border-bottom: #fc0e49 10px solid;
+  }
+  
+  .skillset_container {
+    display: inline-block;
+    justify-content: center;
+    height: 45px;
+    width: 130px;
+    padding: 30px;
+    margin: 30px;
+    color: #fc0e49;
+    background: rgb(252, 252, 252);
+    box-shadow: 0 8px 32px 0 #fc0e4a83;
+    backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 2px solid #fc0e4a67;
+    transition: 0.5s linear;
+    
+  }
+  
+  .skillset_container:hover {
+    display: inline-block;
+    justify-content: center;
+    height: 55px;
+    width: 140px;
+    padding: 30px;
+    margin: 20px;
+    color: #fc0e49;
+    background: rgb(252, 252, 252);
+    box-shadow: 0 8px 32px 0 #fc0e4a83;
+    backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 2px solid #fc0e4a67;
+    
+  }
+  
+  #calender {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 30px;
+  }
+  
+  #contributions {
+    padding-bottom: 30px;
+    align-self: center;
+  }
