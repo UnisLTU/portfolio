@@ -8,8 +8,9 @@
   }
   
   .about_me {
-    padding: 150px 0px 100px 0px;
+    padding: 150px 30px 100px 30px;
     margin-top: 0px;
+    width: 100%;
     background-color: aliceblue;
   }
   
@@ -53,7 +54,7 @@
     
   }
   
-  .skillset_container:hover {
+  .skillsetcon:hover {
     display: inline-block;
     justify-content: center;
     height: 55px;

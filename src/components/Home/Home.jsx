@@ -3,11 +3,11 @@ import styles from "./Home.module.css"
 
 const Home = () => {
   return (
-    <div className={styles.home} id={styles.home}>
+    <div className={styles.home} id="home">
       <div className={styles.collumn_center}>
-        <h2 className={styles.intro}>Hi there!</h2>
-        <h1 className={styles.intro}>I'm Ugnius Tyla</h1>
-        <h1 className={styles.web_dev}>Beginner web developer...</h1>
+        <div className={styles.intro} style={{fontSize: 24}}>Hi there!</div>
+        <div className={styles.intro} style={{fontSize: 32}}>I'm Ugnius Tyla</div>
+        <div className={styles.web_dev} style={{fontSize: 24}}>Beginner web developer...</div>
       </div>
     </div>
   );

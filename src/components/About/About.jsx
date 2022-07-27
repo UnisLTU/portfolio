@@ -17,7 +17,7 @@ const About = () => {
   })
   return (
     <>
-      <section className={styles.about} id={styles.about}>
+      <section className={styles.about} id="about">
         <div className={styles.about_me}>
           <p>Hi, I am <font color="#fc0e49" >Ugnius Tyla</font>  from Vilnius, Lithuania</p>
           <p>I have Civil engineering background and currently working as civil engineer, but I am trying to improve myself by learning <font color="#fc0e49" >Web development.</font></p>

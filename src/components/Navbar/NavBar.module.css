@@ -42,6 +42,7 @@
     font-size: 20px;
     color: aliceblue;
     transition: 0.5s linear;
+    cursor: pointer;
   }
   
   .nav_buttons:hover {
