@@ -32,6 +32,7 @@
   
   .nav_buttons {
     margin-right: 20px;
+    padding: 0px;
     height: 35px;
     justify-content: center;
     width: 120px;
@@ -41,15 +42,10 @@
     text-decoration: none;
     font-size: 20px;
     color: aliceblue;
-    transition: 0.5s linear;
+    transition: 0.1s linear;
     cursor: pointer;
   }
   
   .nav_buttons:hover {
-    border-bottom: 5px;
-    text-decoration: none;
-    font-size: 20px;
-    transition: 0.5s linear;
-    border-bottom: 3px solid #fc0e49;
-    height: 25px;
+    color: #fc0e49;
   }
