@@ -32,7 +32,7 @@
     flex-direction: column;
     color: #fc0e49;
     font-size: 32px;
-    padding-top: 60px;
+    padding-top: 30px;
     background: linear-gradient(135deg, rgba(63, 63, 63, 0.8) 0%, rgb(0, 0, 0) 100%);
     border-bottom: #fc0e49 10px solid;
   }
