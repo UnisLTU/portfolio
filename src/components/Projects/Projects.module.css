@@ -73,3 +73,21 @@
 }
 
 
+@media only screen and (max-width: 500px) {
+  .divider {
+    display: none;
+  }
+
+  img {display: none;}
+
+  .projects_container {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  .text_container {
+    width: 80%;
+  }
+}
+

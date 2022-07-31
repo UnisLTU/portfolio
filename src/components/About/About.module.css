@@ -1,15 +1,14 @@
 .about {
     display: flex;
     justify-content: center;
-    height: 400px;
     border-bottom: #fc0e49 10px solid;
-    
-  
+    height: 400px;
   }
   
   .about_me {
-    padding: 150px 30px 100px 30px;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     background-color: aliceblue;
   }
@@ -81,3 +80,47 @@
     padding-bottom: 30px;
     align-self: center;
   }
+
+  @media only screen and (max-width: 1281px) {
+    .about_me {
+        padding: 100px 30px 100px 30px;
+        margin-top: 0px;
+        width: 100%;
+        background-color:aliceblue;
+      }
+
+      img:nth-child(3) {
+        display: none;
+      }
+
+      .contributions {
+        width: 800px;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      
+      img:nth-child(2) {
+        display: none;
+      }
+
+      .skillset {
+        padding-bottom: 30px;
+      }
+
+      .skillset_container {
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 2px;
+        background: none;
+        box-shadow: none;
+        backdrop-filter: blur( 0px );
+        border-radius: none;
+        border: 0px;
+      }
+      
+      #calender {
+        width: 95%;
+      }
+    }

@@ -7,6 +7,10 @@
     width: 100%;
     z-index: 999;
   }
+
+  .navbar_show {
+    display: none;
+  }
   
   .logo {
     float: left;
@@ -48,4 +52,12 @@
   
   .nav_buttons:hover {
     color: #fc0e49;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .logo { 
+      font-size: 32px;
+
+    }
+
   }

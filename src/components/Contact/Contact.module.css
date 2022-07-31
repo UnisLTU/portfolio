@@ -21,6 +21,13 @@
  color: #fc0e49;
 }
 
+.contact_container { 
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
 .text_container {
     display: flex;
     flex-direction: column;
@@ -36,4 +43,13 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 500px) {
+    .contact_container {
+        flex-direction: column;
+}
+.contact_card {
+    justify-content: center;
+}
 }

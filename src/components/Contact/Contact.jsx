@@ -8,7 +8,7 @@ function Contact() {
     return (
         <>
             <div className={styles.contact_header} id="contact"> Contact Me!
-                <div style={{ display: "flex", flexDirection: "row", width: "100%", justifyContent: "center" }}>
+                <div className={styles.contact_container}>
                     <a href="linkedin.com/in/ugnius-tyla-9083a1132" className={styles.contact_card}>
                         <AiOutlineLinkedin size={32} style={{ padding: 8 }} />
                         <div className={styles.text_container}>
