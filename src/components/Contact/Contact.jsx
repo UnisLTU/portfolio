@@ -9,7 +9,7 @@ function Contact() {
         <>
             <div className={styles.contact_header} id="contact"> Contact Me!
                 <div className={styles.contact_container}>
-                    <a href="linkedin.com/in/ugnius-tyla-9083a1132" className={styles.contact_card}>
+                    <a href="https://www.linkedin.com/in/ugnius-tyla-9083a1132/" className={styles.contact_card}>
                         <AiOutlineLinkedin size={32} style={{ padding: 8 }} />
                         <div className={styles.text_container}>
                             <span className={styles.website_name}>LinkedIn</span>

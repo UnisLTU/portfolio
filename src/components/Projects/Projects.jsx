@@ -16,7 +16,7 @@ function Projects() {
         <div className={styles.text_container}>
           <p>My first personal portfolio website created with React.js and CSSModules.
           </p>
-          <a className={styles.alternate1} href="/">To Project</a>
+          <a className={styles.alternate1} href="https://unisltu.github.io/portfolio/">To Project</a>
           <div className={styles.frameworks}> React | CSSModules </div>
         </div>
       </div>
