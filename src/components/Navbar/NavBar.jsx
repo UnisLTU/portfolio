@@ -9,7 +9,7 @@ import styles from "./NavBar.module.css"
 const NavBar = () => {
   const [navColor, setnavColor] = useState("transparent");
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("rgba(0,0,0,0.7)") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavColor("#1d1d1d") : setnavColor("none");
   };
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
@@ -26,7 +26,7 @@ const NavBar = () => {
 
 
   return (
-    <div className={styles.navbar_container} style={{ backgroundColor: navColor, transition: "all 0.5s" }} >
+    <div className={styles.navbar_container} style={{ backgroundColor: navColor }} >
       <a className={styles.logo} href="/">Ut.</a>
       <nav className={styles.navbar}>
         <Link className={styles.nav_buttons} to="home" spy={true} smooth={true} offset={-100} duration={500} ><AiOutlineHome size={20} style={{ padding: 2 }} />Home</Link>
@@ -37,7 +37,7 @@ const NavBar = () => {
       </nav >
       <button onClick={handleClick}>Menu.</button>
       {isShown && (
-        <ul>
+        <ul style={{ transition: "ease 1s"  }}>
           <Link className={styles.nav_buttons} to="home" spy={true} smooth={true} offset={-100} duration={500} ><AiOutlineHome size={20} style={{ padding: 2 }} />Home</Link>
           <Link className={styles.nav_buttons} to="about" spy={true} smooth={true} offset={-64} duration={500}><BsFillPersonFill size={20} style={{ padding: 2 }} />About</Link>
           <Link className={styles.nav_buttons} to="projects" spy={true} smooth={true} offset={-64} duration={500}><AiOutlineFundProjectionScreen size={20} style={{ padding: 2 }} />Projects</Link>
