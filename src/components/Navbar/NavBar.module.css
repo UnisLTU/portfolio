@@ -1,12 +1,12 @@
 .navbar_container {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
     display: inline-block;
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 999;
-    transition: 0.2s linear;
+    z-index: 998;
+    
   }
 
   button {
@@ -87,9 +87,18 @@
 
     ul {
       z-index: 999;
+      position: absolute;
+      right: 0%;
+      top: 38px;
+      background-color: rgba(0,0,0,0.7);
       display: flex;
       flex-direction: column;
-      padding-top: 30px;
       align-items: center;
+      width: 100%;
+    }
+
+    .nav_buttons{
+      padding: 0px;
+      margin: 0px;
     }
   }
