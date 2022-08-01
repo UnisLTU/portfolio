@@ -34,3 +34,12 @@
     padding: 10px;
   
   }
+
+  @media only screen and (max-width: 851px){
+
+  .home {
+    background-image: url(../../Assets/blackwhite.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

@@ -18,6 +18,11 @@ const NavBar = () => {
     };
   }, []);
 
+  const [isShown, setIsShown] = useState(false);
+
+  const handleClick = event => {
+    setIsShown(current => !current);
+  };
 
 
   return (
@@ -30,6 +35,16 @@ const NavBar = () => {
         <Link className={styles.nav_buttons} to="contact" spy={true} smooth={true} offset={-64} duration={500}><MdOutlineConnectWithoutContact size={20} style={{ padding: 2 }} /> Contact </Link>
         <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
       </nav >
+      <button onClick={handleClick}>Menu.</button>
+      {isShown && (
+        <ul>
+          <Link className={styles.nav_buttons} to="home" spy={true} smooth={true} offset={-100} duration={500} ><AiOutlineHome size={20} style={{ padding: 2 }} />Home</Link>
+          <Link className={styles.nav_buttons} to="about" spy={true} smooth={true} offset={-64} duration={500}><BsFillPersonFill size={20} style={{ padding: 2 }} />About</Link>
+          <Link className={styles.nav_buttons} to="projects" spy={true} smooth={true} offset={-64} duration={500}><AiOutlineFundProjectionScreen size={20} style={{ padding: 2 }} />Projects</Link>
+          <Link className={styles.nav_buttons} to="contact" spy={true} smooth={true} offset={-64} duration={500}><MdOutlineConnectWithoutContact size={20} style={{ padding: 2 }} /> Contact </Link>
+          <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
+        </ul>
+      )}
     </div >
   );
 }
