@@ -15,6 +15,8 @@ const About = () => {
   useEffect(() => {
     Aos.init({ duration: 1000, offset: 200, once: true })
   })
+
+
   return (
     <>
       <section className={styles.about} id="about">

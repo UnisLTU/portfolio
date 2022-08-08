@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from 'react-scroll'
 import { RiGithubLine } from 'react-icons/ri'
-import { AiOutlineHome, AiOutlineFundProjectionScreen } from 'react-icons/ai'
-import { BsFillPersonFill } from "react-icons/bs"
-import { MdOutlineConnectWithoutContact } from "react-icons/md"
 import styles from "./NavBar.module.css"
 
 const NavBar = () => {
@@ -18,33 +15,38 @@ const NavBar = () => {
     };
   }, []);
 
-  const [isShown, setIsShown] = useState(false);
 
-  const handleClick = event => {
-    setIsShown(current => !current);
-  };
+  const links = [
+    {
+      to: "home",
+      offset: -100,
+      title: "Home"
+    },
+    {
+      to: "about",
+      offset: -64,
+      title: "About"
+    },
+    {
+      to: "projects",
+      offset: -64,
+      title: "Projects"
+    },
+    {
+      to: "contact",
+      offset: -64,
+      title: "Contact"
+    },
+  ];
 
 
   return (
     <div className={styles.navbar_container} style={{ backgroundColor: navColor }} >
       <a className={styles.logo} href="/">Ut.</a>
       <nav className={styles.navbar}>
-        <Link className={styles.nav_buttons} to="home" spy={true} smooth={true} offset={-100} duration={500} ><AiOutlineHome size={20} style={{ padding: 2 }} />Home</Link>
-        <Link className={styles.nav_buttons} to="about" spy={true} smooth={true} offset={-64} duration={500}><BsFillPersonFill size={20} style={{ padding: 2 }} />About</Link>
-        <Link className={styles.nav_buttons} to="projects" spy={true} smooth={true} offset={-64} duration={500}><AiOutlineFundProjectionScreen size={20} style={{ padding: 2 }} />Projects</Link>
-        <Link className={styles.nav_buttons} to="contact" spy={true} smooth={true} offset={-64} duration={500}><MdOutlineConnectWithoutContact size={20} style={{ padding: 2 }} /> Contact </Link>
+        {links.map(link => (<Link className={styles.nav_buttons} to={link.to} spy={true} smooth={true} offset={link.offset} duration={500} >{link.title}</Link>))}
         <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
       </nav >
-      <button onClick={handleClick}>Menu.</button>
-      {isShown && (
-          <ul>
-            <Link className={styles.nav_buttons} to="home" spy={true} smooth={true} offset={-100} duration={500} ><AiOutlineHome size={20} style={{ padding: 2 }} />Home</Link>
-            <Link className={styles.nav_buttons} to="about" spy={true} smooth={true} offset={-64} duration={500}><BsFillPersonFill size={20} style={{ padding: 2 }} />About</Link>
-            <Link className={styles.nav_buttons} to="projects" spy={true} smooth={true} offset={-64} duration={500}><AiOutlineFundProjectionScreen size={20} style={{ padding: 2 }} />Projects</Link>
-            <Link className={styles.nav_buttons} to="contact" spy={true} smooth={true} offset={-64} duration={500}><MdOutlineConnectWithoutContact size={20} style={{ padding: 2 }} /> Contact </Link>
-            <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
-          </ul>
-      )}
     </div >
   );
 }
