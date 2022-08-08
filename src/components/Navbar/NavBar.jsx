@@ -15,6 +15,11 @@ const NavBar = () => {
     };
   }, []);
 
+  const [isShown, setIsShown] = useState(false);
+
+  const handleClick = event => {
+    setIsShown(current => !current);
+  };
 
   const links = [
     {
@@ -37,7 +42,10 @@ const NavBar = () => {
       offset: -64,
       title: "Contact"
     },
+    
+
   ];
+
 
 
   return (
@@ -47,6 +55,13 @@ const NavBar = () => {
         {links.map(link => (<Link className={styles.nav_buttons} to={link.to} spy={true} smooth={true} offset={link.offset} duration={500} >{link.title}</Link>))}
         <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
       </nav >
+      <button onClick={handleClick}>Menu.</button>
+      {isShown && (
+          <ul>
+            {links.map(link => (<Link className={styles.nav_buttons} to={link.to} spy={true} smooth={true} offset={link.offset} duration={500} >{link.title}</Link>))}
+            <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
+          </ul>
+      )}
     </div >
   );
 }

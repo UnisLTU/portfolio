@@ -5,10 +5,20 @@ import { HiOutlineMailOpen } from "react-icons/hi"
 import { RiGithubLine } from 'react-icons/ri'
 
 function Contact() {
+
+
+
     return (
         <>
             <div className={styles.contact_header} id="contact"> Contact Me!
                 <div className={styles.contact_container}>
+                    <a href="https://www.linkedin.com/in/ugnius-tyla-9083a1132/" className={styles.contact_card}>
+                        <AiOutlineLinkedin size={32} style={{ padding: 8 }} />
+                        <div className={styles.text_container}>
+                            <span className={styles.website_name}>LinkedIn</span>
+                            <span className={styles.website_url}>linkedin.com/in/ugnius-tyla-9083a1132</span>
+                        </div>
+                    </a>
                     <a href="https://www.linkedin.com/in/ugnius-tyla-9083a1132/" className={styles.contact_card}>
                         <AiOutlineLinkedin size={32} style={{ padding: 8 }} />
                         <div className={styles.text_container}>
