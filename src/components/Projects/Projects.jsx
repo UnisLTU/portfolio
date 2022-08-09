@@ -2,24 +2,46 @@ import React from 'react'
 import styles from "./Projects.module.css"
 import portfolio from '../../Assets/port.PNG';
 
+
+
+
 function Projects() {
+
+  const projects = [{
+    name: "My first portfolio",
+    date: "2022.08",
+    src: portfolio,
+    alt: "portfolio",
+    p_tag: "My first personal portfolio website created with React.js and CSSModules.",
+    href: "https://unisltu.github.io/portfolio/",
+    libraries: "React | CSSModules",
+  },
+
+
+]
+  
+  console.log(projects);
+
   return (
     <>
       <div className={styles.projects_container} id="projects">
         Projects' timeline:
       </div>
-      <div className={styles.project_name}> My first portfolio</div>
-      <div className={styles.project_date}>2022.08</div>
-      <div className={styles.divider_container}>
-      <img src={portfolio} alt="image1" />
-        <div className={styles.divider}></div>
-        <div className={styles.text_container}>
-          <p>My first personal portfolio website created with React.js and CSSModules.
-          </p>
-          <a className={styles.alternate1} href="https://unisltu.github.io/portfolio/">To Project</a>
-          <div className={styles.frameworks}> React | CSSModules </div>
-        </div>
-      </div>
+      {projects.map(link =>
+        <>
+          <div className={styles.project_name}>{link.home}</div>
+          <div className={styles.project_date}>{link.date}</div>
+          <div className={styles.divider_container}>
+            <img src={link.src} alt={link.alt}/>
+            <div className={styles.divider}></div>
+            <div className={styles.text_container}>
+              <p>{link.p_tag}
+              </p>
+              <a className={styles.alternate1} href={link.href}>To Project</a>
+              <div className={styles.frameworks}>{link.libraries}</div>
+            </div>
+          </div>
+        </>)}
       <div className={styles.project_name}>Second project</div>
       <div className={styles.project_date}>2022....</div>
       <div className={styles.divider_container}>

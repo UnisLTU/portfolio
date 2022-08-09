@@ -23,21 +23,25 @@ const NavBar = () => {
 
   const links = [
     {
+      key:"a1",
       to: "home",
       offset: -100,
       title: "Home"
     },
     {
+      key:"a2",
       to: "about",
       offset: -64,
       title: "About"
     },
     {
+      key:"a3",
       to: "projects",
       offset: -64,
       title: "Projects"
     },
     {
+      key:"a4",
       to: "contact",
       offset: -64,
       title: "Contact"
