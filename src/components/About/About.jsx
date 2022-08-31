@@ -4,6 +4,7 @@ import me2 from '../../Assets/me2.jpg';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiJavascript1, DiReact, DiSass, DiNpm } from 'react-icons/di'
 import { FaNode, FaBootstrap } from 'react-icons/fa'
+import {SiTypescript} from "react-icons/si"
 import GitHubCalendar from 'react-github-calendar';
 import Aos from 'aos';
 import "aos/dist/aos.css"
@@ -37,17 +38,18 @@ const About = () => {
             <DiJavascript1 className={styles.skillset_container} />
             <DiNpm className={styles.skillset_container} />
             <FaBootstrap className={styles.skillset_container} />
+            <DiReact className={styles.skillset_container} />
+            <FaNode className={styles.skillset_container} />
           </div>
         </div>
         <div data-aos="zoom-out-up" data-aos-delay="500">
           <div style={{ display: "flex", justifyContent: "center" }}>Learning atm:</div>
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <DiReact className={styles.skillset_container} />
-            <FaNode className={styles.skillset_container} />
+            <SiTypescript className={styles.skillset_container}/>
             <DiSass className={styles.skillset_container} />
           </div>
         </div>
-        <div data-aos="zoom-out-up" data-aos-delay="500" style={{ display: "flex", justifyContent: "center"}}>
+        <div data-aos="zoom-out-up" data-aos-delay="500" style={{ display: "flex", justifyContent: "center" }}>
           <div id={styles.calender}>
             <div id={styles.contributions}>My contributions</div>
             <GitHubCalendar username="UnisLTU" color="#fc0e49" />

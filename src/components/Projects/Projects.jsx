@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./Projects.module.css"
 import portfolio from '../../Assets/port.PNG';
+import blog from '../../Assets/blog.PNG'
+import cocktail from '../../Assets/cocktail.PNG'
 
 
 
@@ -9,6 +11,7 @@ function Projects() {
 
   const projects = [{
     name: "My first portfolio",
+    flexDirection : true,
     date: "2022.08",
     src: portfolio,
     alt: "portfolio",
@@ -16,11 +19,29 @@ function Projects() {
     href: "https://unisltu.github.io/portfolio/",
     libraries: "React | CSSModules",
   },
-
-
+  {
+    name: "Ut Blog",
+    flexDirection : false,
+    date: "2022.08",
+    src: blog,
+    alt: "blog",
+    p_tag: "Small blog where I document my journey as a developer. It has search engine. All posts are generated dinamicaly from JSON file.",
+    href: "",
+    libraries: "React | CSSModules | JSON",
+  },
+  {
+    name: "Random cocktail generator",
+    flexDirection : true,
+    date: "2022.08",
+    src: cocktail,
+    alt: "cocktail",
+    p_tag: "",
+    href: "https://unisltu.github.io/cocktails/",
+    libraries: "React | CSSModules | Axios | API",
+  },
 ]
+
   
-  console.log(projects);
 
   return (
     <>
@@ -29,9 +50,9 @@ function Projects() {
       </div>
       {projects.map(link =>
         <>
-          <div className={styles.project_name}>{link.home}</div>
+          <div className={styles.project_name}>{link.name}</div>
           <div className={styles.project_date}>{link.date}</div>
-          <div className={styles.divider_container}>
+          <div className={[link.flexDirection ? styles.divider_container : styles.divider_container_reverse]}>
             <img src={link.src} alt={link.alt}/>
             <div className={styles.divider}></div>
             <div className={styles.text_container}>
@@ -42,17 +63,6 @@ function Projects() {
             </div>
           </div>
         </>)}
-      <div className={styles.project_name}>Second project</div>
-      <div className={styles.project_date}>2022....</div>
-      <div className={styles.divider_container}>
-        <div className={styles.text_container}>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae perferendis sint molestias consequuntur dolorum blanditiis quaerat doloribus harum distinctio, quo, laborum enim, dolores tempore? In libero excepturi consequatur molestias a.</p>
-          <a className={styles.alternate2} href="/">To Project</a>
-          <div className={styles.frameworks}> React | CSSModules </div>
-        </div>
-        <div className={styles.divider}></div>
-        <img src={portfolio} alt="image1" />
-      </div>
     </>
   )
 }
