@@ -41,8 +41,6 @@ function Projects() {
   },
 ]
 
-  
-
   return (
     <>
       <div className={styles.projects_container} id="projects">

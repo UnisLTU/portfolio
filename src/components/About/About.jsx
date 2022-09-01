@@ -3,7 +3,7 @@ import me1 from '../../Assets/me1.jpg';
 import me2 from '../../Assets/me2.jpg';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiJavascript1, DiReact, DiSass, DiNpm } from 'react-icons/di'
-import { FaNode, FaBootstrap } from 'react-icons/fa'
+import { FaBootstrap } from 'react-icons/fa'
 import {SiTypescript} from "react-icons/si"
 import GitHubCalendar from 'react-github-calendar';
 import Aos from 'aos';
@@ -33,19 +33,18 @@ const About = () => {
         <div data-aos="zoom-out-up">
           <div style={{ display: "flex", justifyContent: "center" }}>Skillset:</div>
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <AiFillHtml5 className={styles.skillset_container} />
+            <AiFillHtml5 className={styles.skillset_container}/>
             <DiCss3 className={styles.skillset_container} />
             <DiJavascript1 className={styles.skillset_container} />
             <DiNpm className={styles.skillset_container} />
             <FaBootstrap className={styles.skillset_container} />
             <DiReact className={styles.skillset_container} />
-            <FaNode className={styles.skillset_container} />
           </div>
         </div>
         <div data-aos="zoom-out-up" data-aos-delay="500">
           <div style={{ display: "flex", justifyContent: "center" }}>Learning atm:</div>
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <SiTypescript className={styles.skillset_container}/>
+            <SiTypescript className={styles.skillset_container} />
             <DiSass className={styles.skillset_container} />
           </div>
         </div>
