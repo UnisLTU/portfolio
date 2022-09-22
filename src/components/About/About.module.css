@@ -37,12 +37,15 @@
   }
   
   .skillset_container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 45px;
-    width: 130px;
-    padding: 30px;
-    margin: 30px;
+    align-items: center;
+    font-size: 12px;
+    height: 60px;
+    width: 110px;
+    padding: 10px;
+    margin: 20px;
     color: #fc0e49;
     background: rgb(252, 252, 252);
     box-shadow: 0 8px 32px 0 #fc0e4a83;
@@ -52,21 +55,8 @@
     transition: 0.5s linear;
     
   }
-  
-  .skillsetcon:hover {
-    display: inline-block;
-    justify-content: center;
-    height: 55px;
-    width: 140px;
-    padding: 30px;
-    margin: 20px;
-    color: #fc0e49;
-    background: rgb(252, 252, 252);
-    box-shadow: 0 8px 32px 0 #fc0e4a83;
-    backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 2px solid #fc0e4a67;
-    
+  .skillset_container:hover {
+    transform: scale(1.1);
   }
   
   #calender {

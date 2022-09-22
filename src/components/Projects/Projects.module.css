@@ -48,15 +48,25 @@
 }
 
 .text_container {
+  align-self: center;
   padding: 20px;
   width: 30%;
 }
 
 .divider_container img,
 .divider_container_reverse img {
+  border-radius: 30px;
   padding: 20px;
   width: 30%;
   filter: grayscale(80%);
+  transition: 0.35s ease-in-out;
+}
+
+.divider_container img:hover,
+.divider_container_reverse img:hover {
+  filter: grayscale(0%);
+  transition: 0.35s ease-in-out;
+  
 }
 
 .text_container p {
