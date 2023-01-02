@@ -33,7 +33,7 @@ function Projects() {
     src: utchat,
     alt: "utchat",
     p_tag: "A simple chat website where you can chat in real time. It uses Firebase API to manage massages and accounts. The website has features like: Google authentication, emoji picker, sending and editing messages.",
-    href: "https://unisltu.github.io/portfolio/",
+    href: "https://unisltu.github.io/utchat/",
     libraries: "React | Typescript | CSSModules | Firebase",
   },
   ]
