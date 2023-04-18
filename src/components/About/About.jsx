@@ -2,8 +2,7 @@ import React, { useEffect } from 'react'
 import me1 from '../../Assets/me1.jpg';
 import me2 from '../../Assets/me2.jpg';
 import { AiFillHtml5 } from 'react-icons/ai'
-import { DiCss3, DiJavascript1, DiReact, DiNpm, DiGit, DiFirebase } from 'react-icons/di'
-import { FaBootstrap } from 'react-icons/fa'
+import { DiCss3, DiJavascript1, DiReact, DiGit } from 'react-icons/di'
 import { SiTypescript, SiTailwindcss, SiStrapi } from "react-icons/si"
 import { TbBrandFirebase, TbBrandNextjs, TbBrandReactNative } from 'react-icons/tb'
 import GitHubCalendar from 'react-github-calendar';
@@ -25,7 +24,7 @@ const About = () => {
         <div className={styles.about_me}>
           <p>Hi, I am <font color="#fc0e49">Ugnius Tyla</font> self taught developer from Vilnius, Lithuania</p>
           <p>I have Civil engineering background and currently working as civil engineer. Beside full-time job I am trying to improve myself by learning <font color="#fc0e49" >Web development.</font></p>
-          <p>Currently I'm learning <font color="#fc0e49" >React Native</font>, but I'm <font color="#fc0e49" >always ready</font> to learn more in web development field.</p>
+          <p>Currently I'm learning <font color="#fc0e49" >TypeScript</font>, but I'm <font color="#fc0e49" >always ready</font> to learn more in web development field.</p>
         </div>
         <img src={me1} alt="me1" className={styles.image_container} />
         <img src={me2} alt="me2" className={styles.image_container} />
@@ -56,7 +55,7 @@ const About = () => {
         <div data-aos="zoom-out-up" data-aos-delay="500" style={{ display: "flex", justifyContent: "center" }}>
           <div id={styles.calender}>
             <div id={styles.contributions}>My contributions</div>
-            <GitHubCalendar username="UnisLTU" color="#f54215" />
+            <GitHubCalendar username="UnisLTU" color="#fc0e49" />
           </div>
         </div>
       </section>
