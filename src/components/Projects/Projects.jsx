@@ -43,7 +43,7 @@ function Projects() {
     date: "2023.04",
     src: Group4727,
     alt: "Autopolira",
-    p_tag: "New look for Autopolira website. A car detailing website using Next.js and Strapi. Next.js provides fast performance and efficient development, while Strapi offers a headless CMS for easy content management. With these technologies, Autopolira can showcase their services, manage content, and provide a seamless user experience. Work still in progress.",
+    p_tag: "A car detailing website using Next.js and Strapi. Next.js provides fast performance and efficient development, while Strapi offers a headless CMS for easy content management. With these technologies, Autopolira can showcase their services, manage content, and provide a seamless user experience. Work still in progress.",
     href: "https://autopolira-repo.vercel.app/",
     libraries: "Next.js | Typescript | Tailwind | Zustand | Strapi",
   },

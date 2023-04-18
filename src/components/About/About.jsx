@@ -40,7 +40,6 @@ const About = () => {
           </div>
           <div style={{ display: "flex", justifyContent: "center" }}><div className={styles.skillset_container}><DiReact size={50} />React</div>
             <div className={styles.skillset_container}><SiTailwindcss size={50} />TailwindCSS</div>
-            <div className={styles.skillset_container}><SiTypescript size={50} />TypeScript</div>
             <div className={styles.skillset_container}><TbBrandNextjs size={50} />Next.js</div>
             <div className={styles.skillset_container}><TbBrandFirebase size={50} />Firebase</div>
           </div>
@@ -48,7 +47,7 @@ const About = () => {
         <div data-aos="zoom-out-up" data-aos-delay="500">
           <div style={{ display: "flex", justifyContent: "center" }}>Learning ATM</div>
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <div className={styles.skillset_container}><TbBrandReactNative size={50} />React Native</div>
+            <div className={styles.skillset_container}><SiTypescript size={50} />Typescript</div>
             <div className={styles.skillset_container}><SiStrapi size={50} />Strapi</div>
           </div>
         </div>
