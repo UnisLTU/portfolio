@@ -1,9 +1,12 @@
 body {
-  background-color: #1d1d1d;
+  margin: auto;
+  background-color: rgb(35, 35, 35);
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
 }
 
-/*<--Start of Projects-->*/
-
-
-
-
+.wrapper {
+  background-color: #1d1d1d;
+}

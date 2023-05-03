@@ -22,22 +22,24 @@ p {
 
 .image_container {
   margin-left: 10px;
-  z-index: -1;
   filter: grayscale(100%);
 }
 
 .skillset {
+  margin: auto;
+  max-width: 1080px;
   display: flex;
+  justify-self: center;
   flex-direction: column;
   color: #fc0e49;
   font-size: 32px;
   padding-top: 30px;
-  background: linear-gradient(
-    135deg,
-    rgba(63, 63, 63, 0.8) 0%,
-    rgb(0, 0, 0) 100%
-  );
-  border-bottom: #fc0e49 10px solid;
+}
+
+.skillsetCenter {
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 .skillset_container {

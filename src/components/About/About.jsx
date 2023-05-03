@@ -4,7 +4,7 @@ import me2 from '../../Assets/me2.jpg';
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiJavascript1, DiReact, DiGit } from 'react-icons/di'
 import { SiTypescript, SiTailwindcss, SiStrapi } from "react-icons/si"
-import { TbBrandFirebase, TbBrandNextjs, TbBrandReactNative } from 'react-icons/tb'
+import { TbBrandFirebase, TbBrandNextjs } from 'react-icons/tb'
 import GitHubCalendar from 'react-github-calendar';
 import Aos from 'aos';
 import "aos/dist/aos.css"
@@ -31,27 +31,27 @@ const About = () => {
       </section>
       <section className={styles.skillset}>
         <div data-aos="zoom-out-up">
-          <div style={{ display: "flex", justifyContent: "center" }}>Skillset</div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div className={styles.skillsetCenter}>Skillset</div>
+          <div className={styles.skillsetCenter}>
             <div className={styles.skillset_container}><AiFillHtml5 size={50} />HTML5</div>
             <div className={styles.skillset_container}><DiCss3 size={50} />CSS3</div>
             <div className={styles.skillset_container}><DiJavascript1 size={50} />JavaScript(ES6)</div>
             <div className={styles.skillset_container}><DiGit size={50} />Git</div>
           </div>
-          <div style={{ display: "flex", justifyContent: "center" }}><div className={styles.skillset_container}><DiReact size={50} />React</div>
+          <div className={styles.skillsetCenter}><div className={styles.skillset_container}><DiReact size={50} />React</div>
             <div className={styles.skillset_container}><SiTailwindcss size={50} />TailwindCSS</div>
             <div className={styles.skillset_container}><TbBrandNextjs size={50} />Next.js</div>
             <div className={styles.skillset_container}><TbBrandFirebase size={50} />Firebase</div>
           </div>
         </div>
         <div data-aos="zoom-out-up" data-aos-delay="500">
-          <div style={{ display: "flex", justifyContent: "center" }}>Learning ATM</div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div className={styles.skillsetCenter}>Learning ATM</div>
+          <div className={styles.skillsetCenter}>
             <div className={styles.skillset_container}><SiTypescript size={50} />Typescript</div>
             <div className={styles.skillset_container}><SiStrapi size={50} />Strapi</div>
           </div>
         </div>
-        <div data-aos="zoom-out-up" data-aos-delay="500" style={{ display: "flex", justifyContent: "center" }}>
+        <div data-aos="zoom-out-up" data-aos-delay="500" className={styles.skillsetCenter}>
           <div id={styles.calender}>
             <div id={styles.contributions}>My contributions</div>
             <GitHubCalendar username="UnisLTU" color="#fc0e49" />

@@ -17,36 +17,36 @@ const NavBar = () => {
 
   const [isShown, setIsShown] = useState(false);
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     setIsShown(current => !current);
   };
 
   const links = [
     {
-      key:"a1",
+      key: "a1",
       to: "home",
       offset: -100,
       title: "Home"
     },
     {
-      key:"a2",
+      key: "a2",
       to: "about",
       offset: -64,
       title: "About"
     },
     {
-      key:"a3",
+      key: "a3",
       to: "projects",
       offset: -64,
       title: "Projects"
     },
     {
-      key:"a4",
+      key: "a4",
       to: "contact",
       offset: -64,
       title: "Contact"
     },
-    
+
 
   ];
 
@@ -57,14 +57,14 @@ const NavBar = () => {
       <a className={styles.logo} href="/">Ut.</a>
       <nav className={styles.navbar}>
         {links.map(link => (<Link className={styles.nav_buttons} to={link.to} spy={true} smooth={true} offset={link.offset} duration={500} >{link.title}</Link>))}
-        <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
+        <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} />GitHub</a>
       </nav >
       <button onClick={handleClick}>Menu.</button>
       {isShown && (
-          <ul>
-            {links.map(link => (<Link className={styles.nav_buttons} to={link.to} spy={true} smooth={true} offset={link.offset} duration={500} >{link.title}</Link>))}
-            <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} style={{ padding: 2 }} />GitHub</a>
-          </ul>
+        <ul>
+          {links.map(link => (<Link className={styles.nav_buttons} to={link.to} spy={true} smooth={true} offset={link.offset} duration={500} >{link.title}</Link>))}
+          <a className={styles.nav_buttons} href="https://github.com/UnisLTU"><RiGithubLine size={24} />GitHub</a>
+        </ul>
       )}
     </div >
   );

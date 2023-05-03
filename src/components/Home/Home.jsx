@@ -4,11 +4,11 @@ import styles from "./Home.module.css"
 const Home = () => {
   return (
     <div className={styles.home} id="home">
-      <div className={styles.collumn_center}>
-        <div className={styles.intro} style={{fontSize: 24}}>Hi there!</div>
-        <div className={styles.intro} style={{fontSize: 32}}>I'm Ugnius Tyla</div>
-        <div className={styles.web_dev} style={{fontSize: 24}}>Beginner web developer...</div>
-      </div>
+      <header className={styles.collumn_center}>
+        <h1 className={styles.intro} >Hi there!</h1>
+        <h2 className={styles.intro_name} >I'm Ugnius Tyla</h2>
+        <h2 className={styles.web_dev} >Beginner web developer...</h2>
+      </header>
     </div>
   );
 }
