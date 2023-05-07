@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.56a6b362.css",
-    "main.js": "/portfolio/static/js/main.fe695c3e.js",
-    "static/media/Group 47276.png": "/portfolio/static/media/Group 47276.60b2538f39ce4cffe622.png",
+    "main.css": "/portfolio/static/css/main.30ebe6b4.css",
+    "main.js": "/portfolio/static/js/main.d478328f.js",
+    "static/media/Autopolira.png": "/portfolio/static/media/Autopolira.60b2538f39ce4cffe622.png",
     "static/media/blackwhite.jpg": "/portfolio/static/media/blackwhite.d9a15d0ad751ee0bf8ae.jpg",
     "static/media/me1.jpg": "/portfolio/static/media/me1.a43805ac1c91808fe0bd.jpg",
     "static/media/me2.jpg": "/portfolio/static/media/me2.41d566a2ec8b469f5688.jpg",
@@ -10,11 +10,11 @@
     "static/media/port.PNG": "/portfolio/static/media/port.3488f34dca973858b865.PNG",
     "static/media/utchat.PNG": "/portfolio/static/media/utchat.9db8690cfb9024c4df22.PNG",
     "index.html": "/portfolio/index.html",
-    "main.56a6b362.css.map": "/portfolio/static/css/main.56a6b362.css.map",
-    "main.fe695c3e.js.map": "/portfolio/static/js/main.fe695c3e.js.map"
+    "main.30ebe6b4.css.map": "/portfolio/static/css/main.30ebe6b4.css.map",
+    "main.d478328f.js.map": "/portfolio/static/js/main.d478328f.js.map"
   },
   "entrypoints": [
-    "static/css/main.56a6b362.css",
-    "static/js/main.fe695c3e.js"
+    "static/css/main.30ebe6b4.css",
+    "static/js/main.d478328f.js"
   ]
 }
