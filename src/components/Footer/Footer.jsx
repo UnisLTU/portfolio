@@ -5,9 +5,9 @@ function Footer() {
 
     return (
         <>
-            <div className={styles.footer}>
+            <footer className={styles.footer}>
                 © Copyright 2022 UTyla.lt. All rights reserved.
-            </div>
+            </footer>
         </>
 
     )
