@@ -43,10 +43,10 @@
   line-height: 0;
 }
 
-@media only screen and (max-width: 851px) {
+@media only screen and (max-width: 600px) {
   .home {
     background-image: url(../../Assets/blackwhite.jpg);
-    padding-top: 30px;
+    padding-top: 80px;
     padding-bottom: 30px;
   }
 }
