@@ -1,12 +1,12 @@
 body {
-  margin: auto;
-  background-color: rgb(35, 35, 35);
-  max-width: 1920px;
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
+    margin: auto;
+    background-color: rgb(35, 35, 35);
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
 
 .wrapper {
-  background-color: #1d1d1d;
+    background-color: #1d1d1d;
 }

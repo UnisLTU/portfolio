@@ -1,84 +1,84 @@
 .navbar_container {
-  width: 100%;
-  max-width: 1920px;
-  z-index: 999;
-  background-color: #161616;
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    width: 100%;
+    max-width: 1920px;
+    z-index: 999;
+    background-color: #161616;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo {
-  display: flex;
-  align-self: center;
-  text-decoration: none;
-  color: #fc0e49;
-  font-size: 32px;
-  padding-left: 24px;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    color: #fc0e49;
+    font-size: 32px;
+    padding-left: 24px;
 }
 
 .logo:hover {
-  color: aliceblue;
-  transition: 0.3s;
+    color: aliceblue;
+    transition: 0.3s;
 }
 
 .navbar_list_hide {
-  display: flex;
-  align-self: center;
-  text-decoration: none;
-  color: aliceblue;
-  font-size: 24px;
-  padding-right: 24px;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+    padding-right: 24px;
 }
 
 .nav_buttons {
-  display: flex;
-  padding-right: 16px;
-  text-decoration: none;
-  color: aliceblue;
-  cursor: pointer;
+    display: flex;
+    padding-right: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
 }
 
 .nav_buttons:hover {
-  color: #fc0e49;
-  transition: 0.3s;
+    color: #fc0e49;
+    transition: 0.3s;
 }
 
 .menu {
-  display: none;
+    display: none;
 }
 
 @media only screen and (max-width: 851px) {
-  .menu {
-    text-decoration: none;
-    background: none;
-    border: none;
-    color: aliceblue;
-    font-size: 24px;
-    display: block;
-    padding: 16px;
-  }
-  .navbar_list {
-    width: 100%;
-    background-color: #161616;
-    position: fixed;
-    top: 30px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 24px;
-  }
+    .menu {
+        text-decoration: none;
+        background: none;
+        border: none;
+        color: aliceblue;
+        font-size: 24px;
+        display: block;
+        padding: 16px;
+    }
+    .navbar_list {
+        width: 100%;
+        background-color: #161616;
+        position: fixed;
+        top: 30px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 24px;
+    }
 
-  .navbar_list_hide {
-    display: none;
-  }
+    .navbar_list_hide {
+        display: none;
+    }
 
-  .nav_buttons {
-    display: flex;
-    padding: 8px;
-    margin: auto;
-  }
+    .nav_buttons {
+        display: flex;
+        padding: 8px;
+        margin: auto;
+    }
 }
