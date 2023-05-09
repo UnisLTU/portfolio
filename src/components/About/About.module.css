@@ -1,121 +1,121 @@
 .about {
-  display: flex;
-  justify-content: center;
-  border-bottom: #fc0e49 10px solid;
-  height: 400px;
+    display: flex;
+    justify-content: center;
+    border-bottom: #fc0e49 10px solid;
+    height: 400px;
 }
 
 .about_me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: aliceblue;
 }
 
 p {
-  padding: 0px 30px 0px 30px;
-  font-size: large;
-  padding-bottom: 20px;
-  margin: 0px;
+    padding: 0px 30px 0px 30px;
+    font-size: large;
+    padding-bottom: 20px;
+    margin: 0px;
 }
 
 .image_container {
-  margin-left: 10px;
-  filter: grayscale(100%);
+    margin-left: 10px;
+    filter: grayscale(100%);
 }
 
 .skillset {
-  margin: auto;
-  max-width: 1080px;
-  display: flex;
-  justify-self: center;
-  flex-direction: column;
-  color: #fc0e49;
-  font-size: 32px;
-  padding-top: 30px;
+    margin: auto;
+    max-width: 1080px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    color: #fc0e49;
+    font-size: 32px;
+    padding-top: 30px;
 }
 
 .skillsetCenter {
-  display: flex;
-  margin: auto;
-  justify-content: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 
 .skillset_card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
-  height: 60px;
-  width: 110px;
-  padding: 10px;
-  margin: 20px;
-  color: #fc0e49;
-  background: rgb(252, 252, 252);
-  box-shadow: 0 8px 32px 0 #fc0e4a83;
-  backdrop-filter: blur(0px);
-  border-radius: 10px;
-  border: 2px solid #fc0e4a67;
-  transition: 0.5s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    height: 60px;
+    width: 110px;
+    padding: 10px;
+    margin: 20px;
+    color: #fc0e49;
+    background: rgb(252, 252, 252);
+    box-shadow: 0 8px 32px 0 #fc0e4a83;
+    backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 2px solid #fc0e4a67;
+    transition: 0.5s linear;
 }
 .skillset_card:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #calender {
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-  align-self: center;
-  padding-bottom: 30px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 30px;
 }
 
 #contributions {
-  padding-bottom: 30px;
-  align-self: center;
+    padding-bottom: 30px;
+    align-self: center;
 }
 
 @media only screen and (max-width: 1281px) {
-  .about_me {
-    padding: 60px 30px 60px 30px;
-    margin-top: 0px;
-    width: 100%;
-    background-color: aliceblue;
-  }
+    .about_me {
+        padding: 60px 30px 60px 30px;
+        margin-top: 0px;
+        width: 100%;
+        background-color: aliceblue;
+    }
 
-  img:nth-child(3) {
-    display: none;
-  }
+    img:nth-child(3) {
+        display: none;
+    }
 
-  #contributions {
-    width: 100%;
-  }
+    #contributions {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-  img:nth-child(2) {
-    display: none;
-  }
+    img:nth-child(2) {
+        display: none;
+    }
 
-  .skillset {
-    padding-bottom: 30px;
-  }
+    .skillset {
+        padding-bottom: 30px;
+    }
 
-  .skillset_card {
-    margin: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 2px;
-    background: none;
-    box-shadow: none;
-    backdrop-filter: blur(0px);
-    border-radius: none;
-    border: 0px;
-  }
+    .skillset_card {
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 2px;
+        background: none;
+        box-shadow: none;
+        backdrop-filter: blur(0px);
+        border-radius: none;
+        border: 0px;
+    }
 
-  #calender {
-    width: 90%;
-  }
+    #calender {
+        width: 90%;
+    }
 }
