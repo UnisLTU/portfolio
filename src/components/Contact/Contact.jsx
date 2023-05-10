@@ -6,10 +6,10 @@ import styles from './Contact.module.css'
 
 function Contact() {
     return (
-        <section className={styles.contact_header} id="contact">
+        <section className={styles.contact_header} id='contact'>
             Contact Me!
             <div className={styles.contact_container}>
-                <a href="mailto: tyla.ugnius@gmail.com" className={styles.contact_card}>
+                <a href='mailto: tyla.ugnius@gmail.com' className={styles.contact_card}>
                     <HiOutlineMailOpen size={32} style={{ padding: 8 }} />
                     <div className={styles.text_container}>
                         <span className={styles.website_name}>Email</span>
@@ -17,7 +17,7 @@ function Contact() {
                     </div>
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/ugnius-tyla-9083a1132/"
+                    href='https://www.linkedin.com/in/ugnius-tyla-9083a1132/'
                     className={styles.contact_card}
                 >
                     <AiOutlineLinkedin size={32} style={{ padding: 8 }} />
@@ -28,7 +28,7 @@ function Contact() {
                         </span>
                     </div>
                 </a>
-                <a href="https://github.com/UnisLTU" className={styles.contact_card}>
+                <a href='https://github.com/UnisLTU' className={styles.contact_card}>
                     <RiGithubLine size={32} style={{ padding: 8 }} />
                     <div className={styles.text_container}>
                         <span className={styles.website_name}>Github</span>

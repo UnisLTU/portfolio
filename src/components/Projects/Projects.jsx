@@ -5,7 +5,7 @@ import { ProjectsData } from '../../utils/data'
 function Projects() {
     return (
         <>
-            <section className={styles.projects_container} id="projects">
+            <section className={styles.projects_container} id='projects'>
                 Projects' timeline
             </section>
             {ProjectsData.map((link) => (
