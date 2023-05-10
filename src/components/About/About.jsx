@@ -12,27 +12,27 @@ import styles from './About.module.css'
 function About() {
     return (
         <>
-            <section className={styles.about} id="about">
+            <section className={styles.about} id='about'>
                 <div className={styles.about_me}>
                     <p>
                         Hi, I am
-                        <font color="#fc0e49"> Ugnius Tyla</font> self taught developer from
+                        <font color='#fc0e49'> Ugnius Tyla</font> self taught developer from
                         Vilnius, Lithuania
                     </p>
                     <p>
                         I have Civil engineering background and currently working as civil engineer.
                         Beside full-time job I am trying to improve myself by learning
-                        <font color="#fc0e49"> Web development.</font>
+                        <font color='#fc0e49'> Web development.</font>
                     </p>
                     <p>
                         Currently I'm learning
-                        <font color="#fc0e49"> TypeScript</font>, but I'm
-                        <font color="#fc0e49"> always ready</font> to learn more in web development
+                        <font color='#fc0e49'> TypeScript</font>, but I'm
+                        <font color='#fc0e49'> always ready</font> to learn more in web development
                         field.
                     </p>
                 </div>
-                <img src={me1} alt="me1" className={styles.image_container} />
-                <img src={me2} alt="me2" className={styles.image_container} />
+                <img src={me1} alt='me1' className={styles.image_container} />
+                <img src={me2} alt='me2' className={styles.image_container} />
             </section>
             <section className={styles.skillset}>
                 <div>
@@ -90,7 +90,7 @@ function About() {
                 <div className={styles.skillsetCenter}>
                     <div id={styles.calender}>
                         <div id={styles.contributions}>My contributions</div>
-                        <GitHubCalendar username="UnisLTU" color="#fc0e49" />
+                        <GitHubCalendar username='UnisLTU' color='#fc0e49' />
                     </div>
                 </div>
             </section>

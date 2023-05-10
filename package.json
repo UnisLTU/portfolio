@@ -32,7 +32,10 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "precommit": "lint-staged"
+        "lint": "eslint src/components/**",
+        "precommit": "lint-staged",
+        "prettier:fix": "prettier --write .",
+        "prettier:check": "prettier --check ."
     },
     "eslintConfig": {
         "extends": [
@@ -42,8 +45,14 @@
     },
     "husky": {
         "hooks": {
-            "precommit": "npm precommit"
+            "pre-commit": "lint-staged"
         }
+    },
+    "lint-staged": {
+        "src/**/*.{jsx,js}": [
+            "npm run prettier:fix",
+            "npm run lint"
+        ]
     },
     "browserslist": {
         "production": [

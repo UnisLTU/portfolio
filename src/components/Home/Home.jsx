@@ -3,7 +3,7 @@ import styles from './Home.module.css'
 
 function Home() {
     return (
-        <section className={styles.home} id="home">
+        <section className={styles.home} id='home'>
             <header className={styles.collumn_center}>
                 <h1 className={styles.intro}>Hi there!</h1>
                 <h2 className={styles.intro_name}>I'm Ugnius Tyla</h2>

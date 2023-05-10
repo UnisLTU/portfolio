@@ -9,8 +9,9 @@ import Contact from './components/Contact/Contact'
 
 function App() {
     return (
-        <div className="wrapper">
+        <div className='wrapper'>
             <NavBar />
+
             <Home />
             <About />
             <Projects />

@@ -9,10 +9,10 @@ function NavBar() {
 
     return (
         <nav className={styles.navbar_container}>
-            <a className={styles.logo} href="/">
+            <a className={styles.logo} href='/'>
                 Ut.
             </a>
-            <button type="button" className={styles.menu} onClick={() => setIsShown(!isShown)}>
+            <button type='button' className={styles.menu} onClick={() => setIsShown(!isShown)}>
                 Menu.
             </button>
             <ul className={isShown ? styles.navbar_list : styles.navbar_list_hide}>
@@ -29,7 +29,7 @@ function NavBar() {
                         {link.title}
                     </Link>
                 ))}
-                <a className={styles.nav_buttons} href="https://github.com/UnisLTU">
+                <a className={styles.nav_buttons} href='https://github.com/UnisLTU'>
                     <RiGithubLine size={24} />
                     GitHub
                 </a>
