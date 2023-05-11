@@ -3171,6 +3171,11 @@
   "resolved" "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz"
   "version" "1.0.3"
 
+"ci-info@^2.0.0":
+  "integrity" "sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ=="
+  "resolved" "https://registry.npmjs.org/ci-info/-/ci-info-2.0.0.tgz"
+  "version" "2.0.0"
+
 "ci-info@^3.2.0":
   "integrity" "sha512-xmDt/QIAdeZ9+nfdPsaBCpMvHNLFiLdjj59qjqn+6iPe6YmHGQ35sBnQ8uslRBXFmXkiZQOJRjvQeoGppoTjjg=="
   "resolved" "https://registry.npmjs.org/ci-info/-/ci-info-3.3.2.tgz"
@@ -3339,6 +3344,11 @@
   "integrity" "sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg=="
   "resolved" "https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz"
   "version" "1.0.1"
+
+"compare-versions@^3.6.0":
+  "integrity" "sha512-W6Af2Iw1z4CB7q4uU4hv646dW9GQuBM+YpC0UvUCWSD8w90SJjp+ujJuXaEMtAXBtSqGfMPuFOVn4/+FlaqfBA=="
+  "resolved" "https://registry.npmjs.org/compare-versions/-/compare-versions-3.6.0.tgz"
+  "version" "3.6.0"
 
 "compressible@~2.0.16":
   "integrity" "sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg=="
@@ -4795,6 +4805,13 @@
     "locate-path" "^6.0.0"
     "path-exists" "^4.0.0"
 
+"find-versions@^4.0.0":
+  "integrity" "sha512-wgpWy002tA+wgmO27buH/9KzyEOQnKsG/R0yrcjPT9BOFm0zRBVQbZ95nRGXWMywS8YR5knRbpohio0bcJABxQ=="
+  "resolved" "https://registry.npmjs.org/find-versions/-/find-versions-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "semver-regex" "^3.1.2"
+
 "flat-cache@^3.0.4":
   "integrity" "sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg=="
   "resolved" "https://registry.npmjs.org/flat-cache/-/flat-cache-3.0.4.tgz"
@@ -5362,10 +5379,21 @@
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-4.3.1.tgz"
   "version" "4.3.1"
 
-"husky@^8.0.3":
-  "integrity" "sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg=="
-  "resolved" "https://registry.npmjs.org/husky/-/husky-8.0.3.tgz"
-  "version" "8.0.3"
+"husky@^4.3.8":
+  "integrity" "sha512-LCqqsB0PzJQ/AlCgfrfzRe3e3+NvmefAdKQhRYpxS4u6clblBoDdzzvHi8fmxKRzvMxPY/1WZWzomPZww0Anow=="
+  "resolved" "https://registry.npmjs.org/husky/-/husky-4.3.8.tgz"
+  "version" "4.3.8"
+  dependencies:
+    "chalk" "^4.0.0"
+    "ci-info" "^2.0.0"
+    "compare-versions" "^3.6.0"
+    "cosmiconfig" "^7.0.0"
+    "find-versions" "^4.0.0"
+    "opencollective-postinstall" "^2.0.2"
+    "pkg-dir" "^5.0.0"
+    "please-upgrade-node" "^3.2.0"
+    "slash" "^3.0.0"
+    "which-pm-runs" "^1.0.0"
 
 "iconv-lite@^0.6.3":
   "integrity" "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw=="
@@ -7047,6 +7075,11 @@
     "is-docker" "^2.1.1"
     "is-wsl" "^2.2.0"
 
+"opencollective-postinstall@^2.0.2":
+  "integrity" "sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q=="
+  "resolved" "https://registry.npmjs.org/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz"
+  "version" "2.0.3"
+
 "optionator@^0.8.1":
   "integrity" "sha512-+IW9pACdk3XWmmTXG8m3upGUJst5XRGzxMRjXzAuJ1XnIFNvfhjjIuYkDvysnPQ7qzqVzLt78BCruntqRhWQbA=="
   "resolved" "https://registry.npmjs.org/optionator/-/optionator-0.8.3.tgz"
@@ -7277,12 +7310,26 @@
   dependencies:
     "find-up" "^4.0.0"
 
+"pkg-dir@^5.0.0":
+  "integrity" "sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA=="
+  "resolved" "https://registry.npmjs.org/pkg-dir/-/pkg-dir-5.0.0.tgz"
+  "version" "5.0.0"
+  dependencies:
+    "find-up" "^5.0.0"
+
 "pkg-up@^3.1.0":
   "integrity" "sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA=="
   "resolved" "https://registry.npmjs.org/pkg-up/-/pkg-up-3.1.0.tgz"
   "version" "3.1.0"
   dependencies:
     "find-up" "^3.0.0"
+
+"please-upgrade-node@^3.2.0":
+  "integrity" "sha512-gQR3WpIgNIKwBMVLkpMUeR3e1/E1y42bqDQZfql+kDeXd8COYfM8PQA4X6y7a8u9Ua9FHmsrrmirW2vHs45hWg=="
+  "resolved" "https://registry.npmjs.org/please-upgrade-node/-/please-upgrade-node-3.2.0.tgz"
+  "version" "3.2.0"
+  dependencies:
+    "semver-compare" "^1.0.0"
 
 "postcss-attribute-case-insensitive@^5.0.1":
   "integrity" "sha512-XIidXV8fDr0kKt28vqki84fRK8VW8eTuIa4PChv2MqKuT6C9UjmSKzen6KaWhWEoYvwxFCa7n/tC1SZ3tyq4SQ=="
@@ -8636,6 +8683,16 @@
   dependencies:
     "node-forge" "^1"
 
+"semver-compare@^1.0.0":
+  "integrity" "sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow=="
+  "resolved" "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz"
+  "version" "1.0.0"
+
+"semver-regex@^3.1.2":
+  "integrity" "sha512-6IiqeZNgq01qGf0TId0t3NvKzSvUsjcpdEO3AQNeIjR6A2+ckTnQlDpl4qu1bjRv0RzN3FP9hzFmws3lKqRWkA=="
+  "resolved" "https://registry.npmjs.org/semver-regex/-/semver-regex-3.1.4.tgz"
+  "version" "3.1.4"
+
 "semver@^6.0.0", "semver@^6.1.1", "semver@^6.1.2", "semver@^6.3.0":
   "integrity" "sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw=="
   "resolved" "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
@@ -9859,6 +9916,11 @@
     "is-set" "^2.0.1"
     "is-weakmap" "^2.0.1"
     "is-weakset" "^2.0.1"
+
+"which-pm-runs@^1.0.0":
+  "integrity" "sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA=="
+  "resolved" "https://registry.npmjs.org/which-pm-runs/-/which-pm-runs-1.1.0.tgz"
+  "version" "1.1.0"
 
 "which-typed-array@^1.1.9":
   "integrity" "sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA=="
