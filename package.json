@@ -32,7 +32,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "lint": "eslint \"**/*.{js,jsx}\"",
+        "lint": "eslint \"src/**/*.{js,jsx}\"",
         "prettier:fix": "prettier --write .",
         "prettier:check": "prettier --check ."
     },
