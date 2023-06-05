@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.30ebe6b4.css",
-    "main.js": "/portfolio/static/js/main.9e980cd4.js",
+    "main.js": "/portfolio/static/js/main.668565c8.js",
     "static/media/Autopolira.png": "/portfolio/static/media/Autopolira.60b2538f39ce4cffe622.png",
     "static/media/blackwhite.jpg": "/portfolio/static/media/blackwhite.d9a15d0ad751ee0bf8ae.jpg",
     "static/media/me1.jpg": "/portfolio/static/media/me1.a43805ac1c91808fe0bd.jpg",
@@ -11,10 +11,10 @@
     "static/media/utchat.PNG": "/portfolio/static/media/utchat.9db8690cfb9024c4df22.PNG",
     "index.html": "/portfolio/index.html",
     "main.30ebe6b4.css.map": "/portfolio/static/css/main.30ebe6b4.css.map",
-    "main.9e980cd4.js.map": "/portfolio/static/js/main.9e980cd4.js.map"
+    "main.668565c8.js.map": "/portfolio/static/js/main.668565c8.js.map"
   },
   "entrypoints": [
     "static/css/main.30ebe6b4.css",
-    "static/js/main.9e980cd4.js"
+    "static/js/main.668565c8.js"
   ]
 }
